@@ -27,8 +27,8 @@ ODT supports the reconstruction of three-dimensional structures from slice-level
 The modular framework of ODT enables flexible fine-tuning for various downstream tasks such as cell type classification or regeneration stage prediction. This makes ODT adaptable for a wide range of applications in regeneration biology and stem cell research.
 The project website is available at: http://62.234.193.59:8080/.
 # 📊 Model Results
-![CH Score on Embeddings](./Umap/CH.png)
-![DB Score on Emdeddings](./Umap/DB.png)
+![CH Score on Embeddings](./UMAP_results/CH.png)
+![DB Score on Emdeddings](./UMAP_results/DB.png)
 # Installation
 The pretrained models and datasets are hosted on a cloud storage platform. You can download them using the following links:
 
@@ -51,5 +51,6 @@ cd ODT-main
 You can quickly start training the Planarian Foundation Model (PFM) using the main.py script, which allows for easy initiation of the training process with the default settings.
 
 Alternatively, you can refer to the example directory for more details and advanced use cases.
+
 
 All codes and data will be made publicly available upon acceptance of the manuscript. For any inquiries, please feel free to contact us at [email](wwd23@mails.jlu.edu.cn).
